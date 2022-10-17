@@ -1,0 +1,12 @@
+p{
+    color: black;
+}
+
+#navbar, .navitem{
+   padding: 10px;
+   border-bottom: 3px solid black;
+}
+
+.nav-link{
+    margin: 40px 20px;
+}
