@@ -1,5 +1,11 @@
 *{
     font-family: "open-sans";
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
 }
 p{
     color: rgb(235, 224, 224);
@@ -76,7 +82,7 @@ button{
 
 
 h5{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
