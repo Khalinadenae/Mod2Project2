@@ -95,3 +95,29 @@ h5{
     color: #fff;
 }
 
+.col{
+    padding: 0;
+    margin: 0;
+    border: transparent;
+    border-radius: 0;
+}
+
+.card-img-overlay{
+    border-radius: 0%;
+    padding: 0;
+}
+
+.card{
+    border-radius: 0%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fa-solid{
+    font-size: 30px;
+  }
