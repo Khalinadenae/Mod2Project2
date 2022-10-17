@@ -2,14 +2,17 @@
     font-family: "open-sans";
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container-fluid{
     margin: 0;
     padding: 0;
 }
 p{
-    color: rgb(235, 224, 224);
-    font-size: 16px;
+    color: #333;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 100;
  
 }
 
@@ -91,11 +94,11 @@ h5{
 #article1 {
 
     background-color: #0d6efd; 
-    padding: 70px; 
+    padding: 70px;
     color: #fff;
 }
 
-.col{
+.col-sm{
     padding: 0;
     margin: 0;
     border: transparent;
@@ -109,6 +112,7 @@ h5{
 
 .card{
     border-radius: 0%;
+    border: 0px transparent;
 }
 
 .centered {
@@ -120,4 +124,41 @@ h5{
 
   .fa-solid{
     font-size: 30px;
+  }
+
+  #article3{
+    padding: 50px;
+  }
+ img{
+    margin: 0;
+    padding: 0;
+ }
+
+ .article-img{
+    height: 300px;
+ }
+  /* media query */ 
+
+  @media  only screen and (max-width: 600px){
+
+    header .header-content-inner h1 {
+        font-size: 40px;
+        letter-spacing: normal;
+    }
+#article1{
+    padding:30px 0 70px 0 ;
+}
+#article3{
+    padding: 60px 0 60px 0 ;
+}
+.article-img{
+    height: 200px;
+}
+#main-row, .col-sm-6{
+    padding: 0;
+}
+#article3{
+    padding: 5px;
+  }
+
   }
