@@ -20,21 +20,28 @@ p{
    border-bottom: 1px solid rgb(240, 233, 233);
 }
 
+.nav-link{
+    color: #fff;
+}
+
 
 .navbar-brand{
     letter-spacing: 10px;
+    color: #fff;
+    padding-right: 350px;
 }
 
 .nav-link{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 10px;
+    color: #fff;
 }
  a{
-    color: #fff;
+    color: rgb(228, 217, 217);
  }
  a:hover{
-    color:#fff;
+    color:rgb(179, 167, 201);
     font-weight: 700;
  }
 
@@ -43,7 +50,7 @@ header {
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    color: #fff;
+    color: rgb(240, 228, 228);
     background-image: url(img/pexels-eberhard-grossgasteiger-572897.jpg);
     background-position: center;
     -webkit-background-size: cover;
