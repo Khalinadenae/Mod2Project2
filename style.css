@@ -175,5 +175,8 @@ h5{
 #article3{
     padding: 5px;
   }
+  .navbar-brand{
+    padding: 30px;
+  }
 
   }
