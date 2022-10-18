@@ -167,7 +167,7 @@ h5{
     padding: 60px 0 60px 0 ;
 }
 .article-img{
-    height: 200px;
+    height: 150px;
 }
 #main-row, .col-sm-6{
     padding: 0;
@@ -178,5 +178,7 @@ h5{
   .navbar-brand{
     padding: 30px;
   }
-
+.row{
+     --bs-gutter-x: 0;
+}
   }
